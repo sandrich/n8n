@@ -6,6 +6,6 @@ USER root
 
 # Install amazon-sp-api package globally
 # Use --no-audit and --no-fund for faster builds and reduced output
-RUN npm install -g --no-audit --no-fund amazon-sp-api@1.1.6 aws4 axios
+RUN npm install -g --no-audit --no-fund amazon-sp-api@0.8.5 aws4 axios
 
 USER node
